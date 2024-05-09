@@ -8,4 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Player extends Model
 {
     use HasFactory;
+
+    //add name and email
+    protected $fillable = ['name', 'email'];
 }
